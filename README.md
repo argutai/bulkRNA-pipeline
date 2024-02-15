@@ -1,4 +1,4 @@
-# bulkRNA pipeline
+# BulkRNA Pipeline and Analysis
 
 Pull images (use srun if on CREATE HPC):
 ```
