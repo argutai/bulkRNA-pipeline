@@ -6,7 +6,7 @@ singularity pull fastqc.sif docker://alexcoppe/fastqc
 singularity pull picard.sif docker://broadinstitute/picard
 singularity pull featurecount.sif docker://alexgilgal/featurecount
 ```
-Install [STAR](https://github.com/alexdobin/STAR)
+Install [STAR](https://github.com/alexdobin/STAR), add to path
 
 ### Fast QC
 ```
