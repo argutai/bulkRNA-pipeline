@@ -10,7 +10,7 @@ SAMPLE=$1
 mkdir clean-S3/$SAMPLE	
 
 reference=index/genome/STAR
-STAR-2.7.11a/bin/Linux_x86_64/STAR \
+STAR \
 	--outSAMtype BAM Unsorted \
 	--runThreadN 30 \
 	--readFilesCommand zcat \
